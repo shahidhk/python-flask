@@ -1,2 +1,2 @@
 #!/bin/sh
-exec gunicorn --config /src/gunicorn_config.py server:app
+exec gunicorn --config /app/src/gunicorn_config.py server:app

@@ -10,4 +10,4 @@ def hello():
 
 @app.route("/hai")    
 def hai():
-    return "<h1>Hello World</h1>"
+    return "<h1>Hello World</h1><h2>How are you</h2>"
